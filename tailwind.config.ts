@@ -1,5 +1,3 @@
-import { frostedThemePlugin } from "@whop/react/tailwind";
-
 export default {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -50,5 +48,5 @@ export default {
       },
     },
   },
-  plugins: [frostedThemePlugin()],
+  plugins: [],
 };
